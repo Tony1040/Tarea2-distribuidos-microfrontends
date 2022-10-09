@@ -1,6 +1,6 @@
-data = [
+const data = [
   {
-    "id": 1,
+    "_id": 1,
     "id_artista": 1,
     "id_discografica": 1,
     "fecha_publicacion": "1959",
@@ -11,7 +11,7 @@ data = [
     "imagen": "../images/albums/kind_of_blue.jpg"
   },
   {
-    "id": 2,
+    "_id": 2,
     "id_artista": 1,
     "id_discografica": 1,
     "fecha_publicacion": "1930",
@@ -22,7 +22,7 @@ data = [
     "imagen": "../images/albums/bitches_brew.jpg"
   },
   {
-    "id": 3,
+    "_id": 3,
     "id_artista": 2,
     "id_discografica": 2,
     "fecha_publicacion": "1965",
@@ -33,7 +33,7 @@ data = [
     "imagen": "../images/albums/a_love_supreme.jpg"
   },
   {
-    "id": 4,
+    "_id": 4,
     "id_artista": 2,
     "id_discografica": 3,
     "fecha_publicacion": "1958",
@@ -44,7 +44,7 @@ data = [
     "imagen": "../images/albums/blue_train.jpg"
   },
   {
-    "id": 5,
+    "_id": 5,
     "id_artista": 3,
     "id_discografica": 4,
     "fecha_publicacion": "1952",
@@ -55,7 +55,7 @@ data = [
     "imagen": "../images/albums/jam_session.jpg"
   },
   {
-    "id": 6,
+    "_id": 6,
     "id_artista": 3,
     "id_discografica": 4,
     "fecha_publicacion": "1992",
@@ -66,7 +66,7 @@ data = [
     "imagen": "../images/albums/philharmonic_1946.jpg"
   },
   {
-    "id": 7,
+    "_id": 7,
     "id_artista": 4,
     "id_discografica": 5,
     "fecha_publicacion": "1957",
@@ -77,7 +77,7 @@ data = [
     "imagen": "../images/albums/serenate_bus_seat.jpg"
   },
   {
-    "id": 8,
+    "_id": 8,
     "id_artista": 4,
     "id_discografica": 5,
     "fecha_publicacion": "1957",
@@ -88,7 +88,7 @@ data = [
     "imagen": "../images/albums/Duke_with_a_Difference.jpg"
   },
   {
-    "id": 9,
+    "_id": 9,
     "id_artista": 5,
     "id_discografica": 6,
     "fecha_publicacion": "1965",
@@ -99,7 +99,7 @@ data = [
     "imagen": "../images/albums/I_put_a_spell.jpg"
   },
   {
-    "id": 10,
+    "_id": 10,
     "id_artista": 1,
     "id_discografica": 7,
     "fecha_publicacion": "1986",
@@ -110,7 +110,7 @@ data = [
     "imagen": "../images/albums/tutu.jpg"
   },
   {
-    "id": 11,
+    "_id": 11,
     "id_artista": 2,
     "id_discografica": 2,
     "fecha_publicacion": "1963",
@@ -121,7 +121,7 @@ data = [
     "imagen": "../images/albums/ballads.jpg"
   },
   {
-    "id": 12,
+    "_id": 12,
     "id_artista": 4,
     "id_discografica": 2,
     "fecha_publicacion": "1964",
