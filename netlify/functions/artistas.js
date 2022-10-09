@@ -93,21 +93,21 @@ app.get("/:id", (req, res) => {
   res.json(artist);
 });
 
-app.get("/:id/albums", (req, res) => {
-  let art_albums = albums_data.albums.filter(
-    (album) => album.id_artista == req.params.id
-  );
-  if (art_albums == undefined) res.status(404).send("No albums found");
+// app.get("/:id/albums", (req, res) => {
+//   let art_albums = albums_data.albums.filter(
+//     (album) => album.id_artista == req.params.id
+//   );
+//   if (art_albums == undefined) res.status(404).send("No albums found");
 
-  art_albums.forEach((album) => {
-    let publisher = publisher_data.publishers.find(
-      (i) => i.id == album.id_discografica
-    );
-    album.discografica = publisher;
-  });
+//   art_albums.forEach((album) => {
+//     let publisher = publisher_data.publishers.find(
+//       (i) => i.id == album.id_discografica
+//     );
+//     album.discografica = publisher;
+//   });
 
-  res.json(art_albums);
-});
+//   res.json(art_albums);
+// });
 
 app.post("/:id", (req, res) => {
   let index = artists.findIndex((i) => i.id == req.params.id);
@@ -134,9 +134,6 @@ app.delete("/:id", (req, res) => {
   else {
     artists = artists.filter((i) => i.id != req.params.id);
 
-    albums_data.albums = albums_data.albums.filter(
-      (album) => album.id_artista != req.params.id
-    );
     saveArtists();
     res.status(200).send("Artist deleted");
   }
