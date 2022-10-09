@@ -1,7 +1,8 @@
 {
-  "name": "artistas-microfrontend",
-  "version": "0.0.0",
-  "module": "true",
+  "name": "tarea2-distribuidos-microfrontends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,5 +19,15 @@
     "@vitejs/plugin-vue": "^2.3.1",
     "vite": "^2.9.15",
     "vue-router": "^4.1.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony1040/Tarea2-distribuidos-microfrontends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tony1040/Tarea2-distribuidos-microfrontends/issues"
+  },
+  "homepage": "https://github.com/Tony1040/Tarea2-distribuidos-microfrontends#readme"
 }
