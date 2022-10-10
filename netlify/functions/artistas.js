@@ -143,7 +143,7 @@ exp.use(bodyParser.json());
 exp.use("/.netlify/functions/artistas", app);
 exp.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, OPTIONS, DELETE');
   res.setHeader('Access-Control-Allow-Headers', '*');
   next();
 });
