@@ -83,8 +83,11 @@ function saveArtists() {
 }
 
 const app = express.Router();
+
 app.options("*", cors());
 exp.options("*", cors());
+exp.use(cors());
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.json(artists);
@@ -144,7 +147,6 @@ app.delete("/:id", (req, res) => {
 
 exp.use(bodyParser.json());
 exp.use("/.netlify/functions/artistas", app);
-exp.use(cors());
 module.exports = exp;
 module.exports.handler = serverless(exp);
 
