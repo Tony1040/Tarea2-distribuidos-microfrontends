@@ -3,6 +3,7 @@ const express = require("express");
 const serverless = require("serverless-http");
 const exp = express();
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
 const file_location = "/../data/artistas.json";
 let artists = [
@@ -141,12 +142,7 @@ app.delete("/:id", (req, res) => {
 
 exp.use(bodyParser.json());
 exp.use("/.netlify/functions/artistas", app);
-exp.use(function(req, res, next) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, OPTIONS, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', '*');
-  next();
-});
+exp.use(cors());
 module.exports = exp;
 module.exports.handler = serverless(exp);
 
