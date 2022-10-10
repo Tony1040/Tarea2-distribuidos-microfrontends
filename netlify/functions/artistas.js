@@ -83,6 +83,8 @@ function saveArtists() {
 }
 
 const app = express.Router();
+app.options("*", cors());
+exp.options("*", cors());
 
 app.get("/", (req, res) => {
   res.json(artists);
