@@ -2,7 +2,7 @@
   "name": "tarea2-distribuidos-microfrontends",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "js/app.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
