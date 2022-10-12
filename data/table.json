@@ -1,56 +1,74 @@
 data = [
   {
     "_id": 1,
-    "nombre": "Miles Davis",
-    "fecha_nacimiento": "26/05/1926",
-    "fallecimiento": "28/09/1991",
-    "origen": "Illinois, Estados Unidos",
-    "instrumentos": "Trompeta, Compositor",
-    "imagen": "../images/artistas/miles_davis.jpg"
+    "nombre": "Columbia Records",
+    "fundacion": "1887",
+    "fundador": "Edward D. Easton",
+    "director": "Rob Stringer",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/columbia_records.png"
   },
   {
     "_id": 2,
-    "nombre": "John Coltrane",
-    "fecha_nacimiento": "23/09/1926",
-    "fallecimiento": "17/07/1967",
-    "origen": "Carolina del Norte, Estados Unidos",
-    "instrumentos": "saxofonista tenor y saxo soprano. Ocasionalmente, tocó el saxo alto y la flauta.",
-    "imagen": "../images/artistas/john_coltrane.jpg"
+    "nombre": "Impulse! Records",
+    "fundacion": "1960",
+    "fundador": "Creed Taylor",
+    "director": "Dickon Stainer/Verve Records",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/impulse_records.jpg"
   },
   {
     "_id": 3,
-    "nombre": "Charlie Parker",
-    "fecha_nacimiento": "29/08/1920",
-    "fallecimiento": "12/03/1955",
-    "origen": "Kansas City, Estados Unidos",
-    "instrumentos": "Saxofon",
-    "imagen": "../images/artistas/charlie_parker.jpg"
+    "nombre": "Blue Note Records",
+    "fundacion": "1939",
+    "fundador": "Alfred Lion, Francis Wolff, Max Margulis",
+    "director": "Steve Barnett/Universal Music Group",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/blue_note_records.png"
   },
   {
     "_id": 4,
-    "nombre": "Clark Terry",
-    "fecha_nacimiento": "14/12/1920",
-    "fallecimiento": "21/02/2015",
-    "origen": "St Louis, Misuri, Estados Unidos",
-    "instrumentos": "Trompeta, Voz, Fliscorno",
-    "imagen": "../images/artistas/clark_terry.jpg"
+    "nombre": "Verve Records",
+    "fundacion": "1956",
+    "fundador": "Norman Granz",
+    "director": "Dickon Stainer",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/verve_records.png"
   },
   {
     "_id": 5,
-    "nombre": "Nina Simone",
-    "fecha_nacimiento": "21/02/1933",
-    "fallecimiento": "21/04/2003",
-    "origen": "Carolina del Norte, Estados Unidos",
-    "instrumentos": "Voz, Piano",
-    "imagen": "../images/artistas/nina_simone.jpg"
+    "nombre": "Riverside Records",
+    "fundacion": "1953",
+    "fundador": "Bill Grauer, Jr, Orrin Keepnews",
+    "director": "Bill Grauer, Jr, Orrin Keepnews",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/riverside_records.png"
   },
   {
     "_id": 6,
-    "nombre": "Wingy Manone",
-    "fecha_nacimiento": "13/02/1900",
-    "fallecimiento": "09/07/1982",
-    "origen": "Nueva Orleans, Estados Unidos",
-    "instrumentos": "Corneta, Trompeta, Voz",
-    "imagen": "../images/artistas/wingy_manone.jpg"
+    "nombre": "Philips Records",
+    "fundacion": "1950",
+    "fundador": "Koninklijke Philips B.V.",
+    "director": "Steve Barnett/Universal Music Group",
+    "pais": "Paises Bajos",
+    "imagen": "../images/discograficas/phillips_records.png"
+  },
+  {
+    "_id": 7,
+    "nombre": "Warner Bros records",
+    "fundacion": "1958",
+    "fundador": "Warner Bros.",
+    "director": " Stephen Cooper/Warner Music Group",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/warner_bros_records.png"
+  },
+  {
+    "_id": 8,
+    "nombre": "Columbia Records test",
+    "fundacion": "1887",
+    "fundador": "Edward D. Easton",
+    "director": "Rob Stringer",
+    "pais": "Estados Unidos",
+    "imagen": "../images/discograficas/columbia_records.png"
   }
 ]
