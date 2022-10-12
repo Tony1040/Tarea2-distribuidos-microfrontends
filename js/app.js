@@ -19,6 +19,9 @@ function getById(query) {
       var elem = data.find(checkId, query.params.id);
       var rendered = Mustache.render(template, elem);
       document.getElementById("content").innerHTML = rendered;
+      document.getElementById("id_artista").onclick = () => {
+        window.open("http://127.0.0.1:5175/get/?id=" + elem.id_artista)
+      }
     });
 }
 
