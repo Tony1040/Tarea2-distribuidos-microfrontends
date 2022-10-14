@@ -6,7 +6,17 @@ data = [
     "fundador": "Edward D. Easton",
     "director": "Rob Stringer",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/columbia_records.png"
+    "imagen": "../images/discograficas/columbia_records.png",
+    "albums": [
+      {
+        "_id": 1,
+        "nombre": "Kind of Blue",
+      },
+      {
+        "_id": 2,
+        "nombre": "Bitches Brew",
+      }
+    ]
   },
   {
     "_id": 2,
@@ -15,7 +25,25 @@ data = [
     "fundador": "Creed Taylor",
     "director": "Dickon Stainer/Verve Records",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/impulse_records.jpg"
+    "imagen": "../images/discograficas/impulse_records.jpg",
+    "albums": [
+      {
+        "_id": 3,
+        "nombre": "A Love Supreme",
+      },
+      {
+        "_id": 11,
+        "nombre": "Ballads",
+      },
+      {
+        "_id": 12,
+        "nombre": "The Happy Horns of Clark Terry",
+      },
+      {
+        "_id": 13,
+        "nombre": "The Happy Horns of Clark Terry test",
+      }
+    ]
   },
   {
     "_id": 3,
@@ -24,7 +52,13 @@ data = [
     "fundador": "Alfred Lion, Francis Wolff, Max Margulis",
     "director": "Steve Barnett/Universal Music Group",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/blue_note_records.png"
+    "imagen": "../images/discograficas/blue_note_records.png",
+    "albums": [
+      {
+        "_id": 4,
+        "nombre": "Blue Train",
+      }
+    ]
   },
   {
     "_id": 4,
@@ -33,7 +67,17 @@ data = [
     "fundador": "Norman Granz",
     "director": "Dickon Stainer",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/verve_records.png"
+    "imagen": "../images/discograficas/verve_records.png",
+    "albums": [
+      {
+        "_id": 5,
+        "nombre": "Jam Session",
+      },
+      {
+        "_id": 6,
+        "nombre": "Jazz at the philharmonic 1946",
+      }
+    ]
   },
   {
     "_id": 5,
@@ -42,7 +86,17 @@ data = [
     "fundador": "Bill Grauer, Jr, Orrin Keepnews",
     "director": "Bill Grauer, Jr, Orrin Keepnews",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/riverside_records.png"
+    "imagen": "../images/discograficas/riverside_records.png",
+    "albums": [
+      {
+        "_id": 7,
+        "nombre": "Serenade to a Bus Seat",
+      },
+      {
+        "_id": 8,
+        "nombre": "Duke with a Difference",
+      }
+    ]
   },
   {
     "_id": 6,
@@ -51,7 +105,13 @@ data = [
     "fundador": "Koninklijke Philips B.V.",
     "director": "Steve Barnett/Universal Music Group",
     "pais": "Paises Bajos",
-    "imagen": "../images/discograficas/phillips_records.png"
+    "imagen": "../images/discograficas/phillips_records.png",
+    "albums": [
+      {
+        "_id": 9,
+        "nombre": "I Put A Spell On You",
+      }
+    ]
   },
   {
     "_id": 7,
@@ -60,7 +120,13 @@ data = [
     "fundador": "Warner Bros.",
     "director": " Stephen Cooper/Warner Music Group",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/warner_bros_records.png"
+    "imagen": "../images/discograficas/warner_bros_records.png",
+    "albums": [
+      {
+        "_id": 10,
+        "nombre": "Tutu",
+      }
+    ]
   },
   {
     "_id": 8,
@@ -69,6 +135,7 @@ data = [
     "fundador": "Edward D. Easton",
     "director": "Rob Stringer",
     "pais": "Estados Unidos",
-    "imagen": "../images/discograficas/columbia_records.png"
+    "imagen": "../images/discograficas/columbia_records.png",
+    "albums": []
   }
 ]
