@@ -8,7 +8,15 @@ data = [
     "duracion": "45:44",
     "nombre": "Kind of Blue",
     "descripcion": "Kind of Blue —en español: Una especie de tristeza o algún tipo de tristeza— es un álbum de estudio del músico estadounidense de jazz Miles Davis editado en agosto de 1959",
-    "imagen": "../images/albums/kind_of_blue.jpg"
+    "imagen": "../images/albums/kind_of_blue.jpg",
+    "discografica": {
+      "_id": 1,
+      "nombre": "Columbia Records",
+    },
+    "artista": {
+      "_id": 1,
+      "nombre": "Miles Davis",
+    }
   },
   {
     "_id": 2,
@@ -19,7 +27,15 @@ data = [
     "duracion": "93:57",
     "descripcion": "Bitches Brew es un disco del trompetista de jazz Miles Davis, editado en 1970 por Columbia-CBS en el que, por primera vez, utiliza de forma extensiva instrumentos eléctricos y estructuras rítmicas y armónicas relacionadas con el rock, conceptos que ya había esbozado en su anterior álbum In A Silent Way",
     "nombre": "Bitches Brew",
-    "imagen": "../images/albums/bitches_brew.jpg"
+    "imagen": "../images/albums/bitches_brew.jpg",
+    "discografica": {
+      "_id": 1,
+      "nombre": "Columbia Records",
+    },
+    "artista": {
+      "_id": 1,
+      "nombre": "Miles Davis",
+    }
   },
   {
     "_id": 3,
@@ -30,7 +46,15 @@ data = [
     "duracion": "33:02",
     "descripcion": "A Love Supreme es un álbum de jazz grabado por el cuarteto de John Coltrane el 9 de diciembre de 1964 en el estudio de Rudy Van Gelder en Englewood Cliffs, Nueva Jersey. El disco es una suite en cuatro partes, que se corresponden con sendos temas: Acknowledgement, Resolution, Pursuance y Psalm.",
     "nombre": "A Love Supreme",
-    "imagen": "../images/albums/a_love_supreme.jpg"
+    "imagen": "../images/albums/a_love_supreme.jpg",
+    "discografica": {
+      "_id": 2,
+      "nombre": "Impulse! Records",
+    },
+    "artista": {
+      "_id": 2,
+      "nombre": "John Coltrane",
+    }
   },
   {
     "_id": 4,
@@ -41,7 +65,15 @@ data = [
     "duracion": "42:14",
     "descripcion": "Blue Train es un álbum de jazz de John Coltrane, publicado en 1957. Es considerado por muchos como el primer álbum auténticamente de solos de Coltrane, el primer grabado con músicos y canciones exclusivamente de su elección. Todas las piezas fueron compuestas por Coltrane, excepto una.",
     "nombre": "Blue Train",
-    "imagen": "../images/albums/blue_train.jpg"
+    "imagen": "../images/albums/blue_train.jpg",
+    "discografica": {
+      "_id": 3,
+      "nombre": "Blue Note Records",
+    },
+    "artista": {
+      "_id": 2,
+      "nombre": "John Coltrane",
+    }
   },
   {
     "_id": 5,
@@ -52,7 +84,15 @@ data = [
     "duracion": "1:01:32",
     "descripcion": "El álbum incluye una melodía de blues original (\"Jam Blues\"), una mezcla de baladas seleccionadas por cada músico y una melodía de blues suave llamada \"Funky Blues\". El estándar \"What is This Thing Called Love\" se destaca particularmente por su estilo final de seguimiento del líder, con cada músico intercambiando cuatros.",
     "nombre": "Jam Session",
-    "imagen": "../images/albums/jam_session.jpg"
+    "imagen": "../images/albums/jam_session.jpg",
+    "discografica": {
+      "_id": 4,
+      "nombre": "Verve Records",
+    },
+    "artista": {
+      "_id": 3,
+      "nombre": "Charlie Parker",
+    }
   },
   {
     "_id": 6,
@@ -63,7 +103,15 @@ data = [
     "duracion": "1:08:00",
     "descripcion": "Una recopilacion de grabaciones en vivo de la legendaria presentacion de Charlie Parker en la Filarmonica en 1946, presentada por Verve Records",
     "nombre": "Jazz at the philharmonic 1946",
-    "imagen": "../images/albums/philharmonic_1946.jpg"
+    "imagen": "../images/albums/philharmonic_1946.jpg",
+    "discografica": {
+      "_id": 4,
+      "nombre": "Verve Records",
+    },
+    "artista": {
+      "_id": 3,
+      "nombre": "Charlie Parker",
+    }
   },
   {
     "_id": 7,
@@ -74,7 +122,15 @@ data = [
     "duracion": "41:32",
     "descripcion": "Album debut del trompetista estadounidense Clark Terry, tocando canciones grabadas en 1957 para la marca Riverside records",
     "nombre": "Serenade to a Bus Seat",
-    "imagen": "../images/albums/serenate_bus_seat.jpg"
+    "imagen": "../images/albums/serenate_bus_seat.jpg",
+    "discografica": {
+      "_id": 5,
+      "nombre": "Riverside Records",
+    },
+    "artista": {
+      "_id": 4,
+      "nombre": "Clark Terry",
+    }
   },
   {
     "_id": 8,
@@ -85,7 +141,15 @@ data = [
     "duracion": "38:09",
     "descripcion": "Duke with a Difference es un album de Jazz el trompetista estadounidense Clark Terry grabado en 1957 para la marca Riverside Records",
     "nombre": "Duke with a Difference",
-    "imagen": "../images/albums/Duke_with_a_Difference.jpg"
+    "imagen": "../images/albums/Duke_with_a_Difference.jpg",
+    "discografica": {
+      "_id": 5,
+      "nombre": "Riverside Records",
+    },
+    "artista": {
+      "_id": 4,
+      "nombre": "Clark Terry",
+    }
   },
   {
     "_id": 9,
@@ -96,7 +160,15 @@ data = [
     "duracion": "34:21",
     "descripcion": "I Put A Spell On You es un álbum de estudio de la cantante y compositora estadounidense Nina Simone, publicado en junio de 1965 por Philips Records, y grabado en Nueva York entre 1964 y 1965. Contiene la canción homónima que alcanzó el puesto número 23 en la lista Hot R&B/Hip-Hop Songs y el puesto número 28 en los UK Singles Chart.",
     "nombre": "I Put A Spell On You",
-    "imagen": "../images/albums/I_put_a_spell.jpg"
+    "imagen": "../images/albums/I_put_a_spell.jpg",
+    "discografica": {
+      "_id": 6,
+      "nombre": "Philips Records",
+    },
+    "artista": {
+      "_id": 5,
+      "nombre": "Nina Simone",
+    }
   },
   {
     "_id": 10,
@@ -107,7 +179,15 @@ data = [
     "duracion": "42:05",
     "descripcion": "Tutu es un álbum del trompetista de jazz estadounidense Miles Davis, lanzado en 1986 por Warner Bros. Records. Fue grabado principalmente en Capitol Studios en Los Ángeles y Clinton Recording en Nueva York, excepto la canción \"Backyard Ritual\", que fue grabada en Le Gonks en West Hollywood",
     "nombre": "Tutu",
-    "imagen": "../images/albums/tutu.jpg"
+    "imagen": "../images/albums/tutu.jpg",
+    "discografica": {
+      "_id": 7,
+      "nombre": "Warner Bros records",
+    },
+    "artista": {
+      "_id": 1,
+      "nombre": "Miles Davis",
+    }
   },
   {
     "_id": 11,
@@ -118,7 +198,15 @@ data = [
     "duracion": "32:18",
     "descripcion": "Ballads es un álbum de jazz de John Coltrane lanzado en enero de 1963 por Impulse! Registros. Fue grabado en diciembre de 1961 y 1962 y lanzado con el número de catálogo A-32 y AS-32. El crítico Gene Lees declaró que el cuarteto nunca antes había tocado las melodías",
     "nombre": "Ballads",
-    "imagen": "../images/albums/ballads.jpg"
+    "imagen": "../images/albums/ballads.jpg",
+    "discografica": {
+      "_id": 2,
+      "nombre": "Impulse! Records",
+    },
+    "artista": {
+      "_id": 2,
+      "nombre": "John Coltrane",
+    }
   },
   {
     "_id": 12,
@@ -129,6 +217,33 @@ data = [
     "duracion": "39:09",
     "descripcion": "The Happy Horns of Clark Terry es un álbum del músico estadounidense de trompetas y trompetas de jazz Clark Terry que presenta actuaciones grabadas en marzo de 1964 para The Impulse. etiqueta. Reeditado en 2012 para conmemorar el 50 aniversario de Impulse!",
     "nombre": "The Happy Horns of Clark Terry",
-    "imagen": "../images/albums/The_Happy_Horns_of_Clark_Terry.jpg"
+    "imagen": "../images/albums/The_Happy_Horns_of_Clark_Terry.jpg",
+    "discografica": {
+      "_id": 2,
+      "nombre": "Impulse! Records",
+    },
+    "artista": {
+      "_id": 4,
+      "nombre": "Clark Terry",
+    }
+  },
+  {
+    "_id": 13,
+    "id_artista": 4,
+    "id_discografica": 2,
+    "fecha_publicacion": "1964",
+    "generos": "Jazz",
+    "duracion": "39:09",
+    "descripcion": "The Happy Horns of Clark Terry es un álbum del músico estadounidense de trompetas y trompetas de jazz Clark Terry que presenta actuaciones grabadas en marzo de 1964 para The Impulse. etiqueta. Reeditado en 2012 para conmemorar el 50 aniversario de Impulse!",
+    "nombre": "The Happy Horns of Clark Terry test",
+    "imagen": "../images/albums/The_Happy_Horns_of_Clark_Terry.jpg",
+    "discografica": {
+      "_id": 2,
+      "nombre": "Impulse! Records",
+    },
+    "artista": {
+      "_id": 4,
+      "nombre": "Clark Terry",
+    }
   }
 ]
