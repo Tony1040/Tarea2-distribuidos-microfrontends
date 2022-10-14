@@ -22,12 +22,12 @@ function getById(query) {
 
       //Reference to artists 
       document.getElementById("id_artista").onclick = () => {
-        window.open("http://127.0.0.1:5173/get/?id=" + elem.id_artista)
+        window.open("http://127.0.0.1:3005/get/?id=" + elem.id_artista)
       }
 
       //Reference to publishers
       document.getElementById("id_discografica").onclick = () => {
-        window.open("http://127.0.0.1:5175/get/?id=" + elem.id_artista)
+        window.open("http://127.0.0.1:3006/get/?id=" + elem.id_artista)
       }
     });
 }

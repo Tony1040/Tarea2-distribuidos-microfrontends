@@ -4,9 +4,9 @@
   "description": "",
   "main": "js/app.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3007",
     "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "preview": "vite preview --port 3007"
   },
   "repository": {
     "type": "git",
