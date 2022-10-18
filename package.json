@@ -1,0 +1,24 @@
+{
+  "name": "tarea2-distribuidos-microfrontends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --port 3005",
+    "build": "vite build",
+    "preview": "vite preview --port 3005"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony1040/Tarea2-distribuidos-microfrontends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tony1040/Tarea2-distribuidos-microfrontends/issues"
+  },
+  "homepage": "https://github.com/Tony1040/Tarea2-distribuidos-microfrontends#readme",
+  "dependencies": {
+    "vite": "^3.1.7"
+  }
+}
