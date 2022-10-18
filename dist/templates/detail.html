@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <h4 style="margin-top: 15px">{{ nombre }}</h4>
+  <h5>Detalles de album</h5>
+  
+  <form>
+    <div class="row">
+      <div class="six columns">
+         <label for="idInput">ID</label>
+         <input class="u-full-width" id="_id" type="text" value="{{ _id }}" readonly/>
+      </div>
+      <div class="six columns">
+         <label for="nationalityInput">Duracion</label>
+         <input class="u-full-width" id="duracion" type="text" value="{{ duracion }}" readonly/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+         <label for="birthInput">Fecha publicacion</label>
+         <input class="u-full-width" id="fecha_publicacion" type="text" value="{{ fecha_publicacion }}"  readonly/>
+      </div>
+      <div class="six columns">
+         <label for="fieldsInput">Generos</label>
+         <input class="u-full-width" id="generos" type="text" value="{{ generos }}"  readonly/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+         <label for="birthInput">Artista</label>
+         <input class="u-full-width button" id="id_artista" type="text" value="{{ artista.nombre }}"  readonly/>
+      </div>
+      <div class="six columns">
+         <label for="fieldsInput">Discografica</label>
+         <input class="u-full-width button" id="id_discografica" type="text" value="{{ discografica.nombre }}"  readonly/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+         <label for="birthInput">Descripcion</label>
+         <textarea class="u-full-width" id="descripcion" readonly>{{ descripcion }}</textarea>
+      </div>
+    </div>
+  </form>
+</html>

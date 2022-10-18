@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/skeleton.css" />
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+    <!-- JSON
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="/data/table.json"></script>
+
+    <!-- Javascript
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <script type="text/javascript" src="/js/mustache.min.js"></script>
+    <script type="text/javascript" src="/js/navigo.min.js"></script>
+    <script type="text/javascript" src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <h3 style="margin-top: 15px">Albums Information</h3>
+    This section presents information about the Jazz albums
+    <p></p>
+    <ul>
+      {{#.}}
+      <li><a href="/get/?id={{ _id }}"> {{ nombre }}</a></li>
+      {{/.}}
+    </ul>
+  </body>
+</html>
